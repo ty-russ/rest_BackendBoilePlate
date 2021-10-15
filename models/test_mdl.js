@@ -8,6 +8,6 @@ const testSchema = new Schema({
 
 testSchema.plugin(AutoIncrement, { inc_field: "test_id" });
 
-var test = mongoose.model("invoice.test", testSchema);
+var test = mongoose.model("test.test", testSchema);
 
 module.exports = test;
