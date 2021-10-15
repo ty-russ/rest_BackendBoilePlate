@@ -4,7 +4,7 @@ const chai = require("chai");
 const assert = chai.assert;
 
 const server = require("../app");
-const Database = require("../db/db");
+const Database = require("../config/db");
 const ctrl = require("../controllers");
 
 //decribes the endpoint

@@ -8,8 +8,8 @@ require("dotenv").config();
 const port = process.env.PORT;
 //const port = 3000;
 
-const config = require("./db/config");
-const Database = require("./db/db");
+const config = require("./config/config");
+const Database = require("./config/db");
 
 //initiate DB
 let db = new Database(config.DB_URI);

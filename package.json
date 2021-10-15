@@ -1,7 +1,7 @@
 {
-  "name": "invoice_backend",
+  "name": "rest_backend",
   "version": "1.0.0",
-  "description": "A backend utitility for invoice management services",
+  "description": "A backend boilerplate ",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
